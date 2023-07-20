@@ -6,7 +6,7 @@ Stats :
 
 Most used languages :
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=50bvd&hide=html,css,c%2B%2B&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=50bvd&hide=html,css,c%2B%2B,c&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
 
 List of tech i use on a regular basis : 
 
