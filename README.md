@@ -62,3 +62,12 @@ I speak English fluently, and native French, Albanian and Macedonian.
   <img src="https://github.com/devicons/devicon/blob/master/icons/redhat/redhat-original.svg" title="Redhat" alt="Redhat" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/qt/qt-original.svg" title="QT Library" alt="QT" width="40" height="40"/>&nbsp;
 </div>
+
+## :flashlight: Guides published on my website :flashlight:
+:warning: My entire website is written in French language :warning:
+* [Guide de démarrage sur Ruby on Rails pour les débutants](https://50bvd.com/posts/Guide-de-d%C3%A9marrage-sur-Ruby-on-Rails-pour-les-d%C3%A9butants/)
+* [Introduction à la programmation fonctionnelle en Perl](https://50bvd.com/posts/Introduction-a-la-programmation-fonctionnelle-en-Perl/)
+* [Introduction aux concepts de base de l'assembleur](https://50bvd.com/posts/Introduction-aux-concepts-de-base-de-l'assembleur/)
+* [RPi - Installer Pi-Hole + Monitoring avec PADD](https://50bvd.com/posts/Installer-Pi-Hole-sur-son-RPi-et-monitor%C3%A9-sur-un-%C3%A9cran/)
+* [Windows & Office Activation](https://50bvd.com/posts/Activation-de-Windows-&-Office/)
+* [Cree son serveur VPN SSL avec OpenVPN Server sur toutes les distributions Linux](https://50bvd.com/posts/Cree-son-serveur-VPN-avec-OpenVPN-Server-sur-toutes-les-distributions-Linux/)
