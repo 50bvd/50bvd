@@ -1,14 +1,34 @@
-### Hi there 👋
+# :fire: Welcome to my Github homepage! :fire:
 
-Stats : 
+## :sparkles: About me :sparkles:
+Hello, my name is Loup, I'm 24 and I'm currently studying for a Bachelor's degree. I've been passionate about computers in general since I was 11yo.
 
-![50bvd's GitHub stats](https://github-readme-stats.vercel.app/api?username=50bvd&theme=tokyonight&show_icons=true)
+Ideally, when I finish my studies, I'd like to become a DevSecOps.
 
-Most used languages :
+I love discovering new technologies, doing low-level devlopment (scripting), and looking for new solutions to keep information systems highly available.
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=50bvd&hide=html,css,c%2B%2B,c&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
+I'm currently a work-study student at [SGS](https://en.wikipedia.org/wiki/SGS_S.A.)
 
-List of tech i use on a regular basis : 
+I also like music, English boxing, basketball, cars (I'm passionate about Mercedes), traveling and restoring antiquites.
+
+I speak English fluently, and native French, Albanian and Macedonian.
+
+## :part_alternation_mark: Stats :part_alternation_mark:
+
+![50bvd's GitHub stats](https://github-readme-stats.vercel.app/api?username=50bvd&show_icons=true&bg_color=00000000)
+
+## :nine::one::one: Best repos :nine::one::one:
+
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=50bvd&repo=mfkf)](https://github.com/50bvd/mfkf)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=50bvd&repo=kmsact)](https://github.com/50bvd/kmsact)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=50bvd&repo=gpubios-rewrite-vfio)](https://github.com/50bvd/gpubios-rewrite-vfio)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=50bvd&repo=stress_test)](https://github.com/50bvd/stress_test)
+
+## :lips: Most used languages :lips:
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=50bvd&hide=html,css,c%2B%2B,c&bg_color=00000000)](https://github.com/anuraghazra/github-readme-stats)
+
+## :man_technologist: List of tech i use on a regular basis :man_technologist:
 
 <div>
   <img src="https://github.com/devicons/devicon/blob/master/icons/perl/perl-original.svg" title="Perl" alt="Perl" width="40" height="40"/>&nbsp;
