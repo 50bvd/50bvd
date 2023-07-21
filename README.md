@@ -9,7 +9,7 @@ I love discovering new technologies, doing low-level devlopment (scripting), and
 
 I'm currently a work-study student at [SGS](https://en.wikipedia.org/wiki/SGS_S.A.)
 
-I also like music, English boxing, basketball, cars (I'm passionate about Mercedes), traveling and restoring antiquites.
+I also like music, English boxing, Sambo (Soviet wrestling), basketball, cars (I'm passionate about Mercedes), traveling and restoring antiquites.
 
 I speak English fluently, and native French, Albanian and Macedonian.
 
