@@ -1,6 +1,11 @@
 # :fire: Welcome to my Github homepage! :fire:
 
 ## :sparkles: About me :sparkles:
+
+<p align="center">
+  <img src="https://i.ibb.co/vk1Lm9M/7c3aadbc-f0ad-4d28-8229-04ac6e4403c0.jpg" alt="Picture of me" width="220"/>
+</p>
+
 Hello, my name is Loup, I'm 24 and I'm currently studying for a Bachelor's degree. I've been passionate about computers in general since I was 11yo.
 
 Ideally, when I finish my studies, I'd like to become a DevSecOps.
