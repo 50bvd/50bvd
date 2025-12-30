@@ -1,73 +1,58 @@
-# :fire: Welcome to my Github homepage! :fire:
+<!-- Bannière personnalisée -->
+<div align="center">
+  
+# 👋 Salut, moi c'est Loup !
 
-## :sparkles: About me :sparkles:
+### 🔧 Administrateur Système | 🐧 Linux & Windows | 🐳 Docker Enthusiast
 
-<p align="center">
-  <img src="https://i.ibb.co/vk1Lm9M/7c3aadbc-f0ad-4d28-8229-04ac6e4403c0.jpg" alt="Picture of me" width="220"/>
-</p>
+---
 
-Hello, my name is Loup, I'm 24 and I'm currently studying for a Bachelor's degree. I've been passionate about computers in general since I was 11yo.
-
-Ideally, when I finish my studies, I'd like to become a DevSecOps.
-
-I love discovering new technologies, doing low-level devlopment (scripting), and looking for new solutions to keep information systems highly available.
-
-I'm currently a work-study student at [SGS](https://en.wikipedia.org/wiki/SGS_S.A.)
-
-I also like music, English boxing, Sambo (Soviet wrestling), basketball, cars (I'm passionate about Mercedes), traveling and restoring antiquites.
-
-I speak English fluently, and native French, Albanian and Macedonian.
-
-## :part_alternation_mark: Stats :part_alternation_mark:
-
-![50bvd's GitHub stats](https://github-readme-stats.vercel.app/api?username=50bvd&show_icons=true&bg_color=00000000)
-
-## :nine::one::one: Best repos :nine::one::one:
-
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=50bvd&repo=mfkf)](https://github.com/50bvd/mfkf)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=50bvd&repo=kmsact)](https://github.com/50bvd/kmsact)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=50bvd&repo=gpubios-rewrite-vfio)](https://github.com/50bvd/gpubios-rewrite-vfio)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=50bvd&repo=stress_test)](https://github.com/50bvd/stress_test)
-
-## :lips: Most used languages :lips:
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=50bvd&hide=html,css,c%2B%2B,c&bg_color=00000000)](https://github.com/anuraghazra/github-readme-stats)
-
-## :man_technologist: List of tech i use on a regular basis :man_technologist:
-
-<div>
-  <img src="https://github.com/devicons/devicon/blob/master/icons/perl/perl-original.svg" title="Perl" alt="Perl" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/android/android-original.svg" title="Android" alt="Android" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/apache/apache-original.svg" title="Apache" alt="Apache" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/arduino/arduino-original.svg" title="Arduino" alt="Arduino" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/azure/azure-original.svg" title="Azure" alt="Azure" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/cmake/cmake-original.svg" title="CMAKE" alt="CMAKE" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/debian/debian-original.svg" title="Debian" alt="Debian" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/docker/docker-original.svg" title="Docker" alt="Docker" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/dotnetcore/dotnetcore-original.svg" title="DotNET Core" alt="DotNET" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/jenkins/jenkins-original.svg" title="Jenkins" alt="Jenkins" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/jetbrains/jetbrains-original.svg" title="JetBrains" alt="JetBrains" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/kubernetes/kubernetes-plain.svg" title="Kuberneties" alt="k8s" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/markdown/markdown-original.svg" title="Markdown" alt="MD" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/mysql/mysql-original.svg" title="MySQL" alt="MySQL" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/nginx/nginx-original.svg" title="Nginx" alt="Nginx" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/npm/npm-original-wordmark.svg" title="NPM" alt="NPM" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" title="Python" alt="Py" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/rails/rails-plain-wordmark.svg" title="Ruby on Rails" alt="Rails" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/raspberrypi/raspberrypi-original.svg" title="Raspberry" alt="Raspberry" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/ruby/ruby-original.svg" title="Ruby" alt="Ruby" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/salesforce/salesforce-plain.svg" title="Salesforce" alt="Salesforce" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/tomcat/tomcat-original.svg" title="Apache Tomcat" alt="Tomcat" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/bash/bash-original.svg" title="Bash" alt="Bash" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/redhat/redhat-original.svg" title="Redhat" alt="Redhat" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/qt/qt-original.svg" title="QT Library" alt="QT" width="40" height="40"/>&nbsp;
 </div>
 
-## :flashlight: Guides published on my website :flashlight:
-:warning: My entire website is written in French language :warning:
-* [Guide de démarrage sur Ruby on Rails pour les débutants](https://50bvd.com/posts/Guide-de-d%C3%A9marrage-sur-Ruby-on-Rails-pour-les-d%C3%A9butants/)
-* [Introduction à la programmation fonctionnelle en Perl](https://50bvd.com/posts/Introduction-a-la-programmation-fonctionnelle-en-Perl/)
-* [Introduction aux concepts de base de l'assembleur](https://50bvd.com/posts/Introduction-aux-concepts-de-base-de-l'assembleur/)
-* [RPi - Installer Pi-Hole + Monitoring avec PADD](https://50bvd.com/posts/Installer-Pi-Hole-sur-son-RPi-et-monitor%C3%A9-sur-un-%C3%A9cran/)
-* [Windows & Office Activation](https://50bvd.com/posts/Activation-de-Windows-&-Office/)
-* [Cree son serveur VPN SSL avec OpenVPN Server sur toutes les distributions Linux](https://50bvd.com/posts/Cree-son-serveur-VPN-avec-OpenVPN-Server-sur-toutes-les-distributions-Linux/)
+## 🛠️ À propos de moi
+
+Administrateur système passionné par l'infrastructure IT, la conteneurisation et l'automatisation. Je travaille quotidiennement avec Windows Server, Linux, Docker et divers systèmes de supervision.
+
+### 💼 Domaines d'expertise
+
+- **Infrastructure** : Windows Server, Active Directory, LDAP
+- **Conteneurisation** : Docker, LXC, Proxmox
+- **Monitoring** : WhatsUp Gold, SNMP, WMI
+- **Sécurité** : SNMPv3, Firewall, Gestion des accès
+- **Scripting** : PowerShell, Bash, Python
+
+### 🎯 Projets en cours
+
+- 🔐 **ClipboardFilter** - Outil de filtrage sécurisé du presse-papier multi-systèmes
+- 🔑 **KMSAct** - Activateur Windows/Office
+- 🎮 Administration de serveurs Minecraft et infrastructure de jeu
+- 📊 Supervision d'infrastructure hospitalière (EPSM74)
+
+---
+
+<div align="center">
+
+## 📊 GitHub Metrics
+
+![Metrics](https://raw.githubusercontent.com/50bvd/50bvd/main/github-metrics.svg)
+
+</div>
+
+---
+
+## 📫 Contact
+
+<div align="center">
+
+[![GitHub](https://img.shields.io/badge/GitHub-50bvd-181717?style=for-the-badge&logo=github)](https://github.com/50bvd)
+[![Location](https://img.shields.io/badge/Location-France-0055A4?style=for-the-badge&logo=google-maps&logoColor=white)](https://www.google.com/maps/place/France)
+
+</div>
+
+---
+
+<div align="center">
+
+### 💡 *"L'automatisation est la clé de l'efficacité"*
+
+</div>
