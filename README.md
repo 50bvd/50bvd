@@ -1,32 +1,32 @@
-<!-- Bannière personnalisée -->
+<!-- Custom Banner -->
 <div align="center">
   
-# 👋 Salut, moi c'est Loup !
+# 👋 Hi, I'm Loup!
 
-### 🔧 Administrateur Système | 🐧 Linux & Windows | 🐳 Docker Enthusiast
+### 🔧 System Administrator | 🐧 Linux & Windows | 🐳 Docker Enthusiast
 
 ---
 
 </div>
 
-## 🛠️ À propos de moi
+## 🛠️ About Me
 
-Administrateur système passionné par l'infrastructure IT, la conteneurisation et l'automatisation. Je travaille quotidiennement avec Windows Server, Linux, Docker et divers systèmes de supervision.
+Passionate system administrator focused on IT infrastructure, containerization, and automation. I work daily with Windows Server, Linux, Docker, and various monitoring systems.
 
-### 💼 Domaines d'expertise
+### 💼 Areas of Expertise
 
-- **Infrastructure** : Windows Server, Active Directory, LDAP
-- **Conteneurisation** : Docker, LXC, Proxmox
-- **Monitoring** : WhatsUp Gold, SNMP, WMI
-- **Sécurité** : SNMPv3, Firewall, Gestion des accès
-- **Scripting** : PowerShell, Bash, Python
+- **Infrastructure**: Windows Server, Active Directory, LDAP
+- **Containerization**: Docker, LXC, Proxmox
+- **Monitoring**: WhatsUp Gold, SNMP, WMI
+- **Security**: SNMPv3, Firewall, Access Management
+- **Scripting**: PowerShell, Bash, Python
 
-### 🎯 Projets en cours
+### 🎯 Current Projects
 
-- 🔐 **ClipboardFilter** - Outil de filtrage sécurisé du presse-papier multi-systèmes
-- 🔑 **KMSAct** - Activateur Windows/Office
-- 🎮 Administration de serveurs Minecraft et infrastructure de jeu
-- 📊 Supervision d'infrastructure hospitalière (EPSM74)
+- 🔐 **ClipboardFilter** - Secure multi-system clipboard filtering tool
+- 🔑 **KMSAct** - Windows/Office Activator
+- 🎮 Minecraft server administration and gaming infrastructure
+- 📊 Healthcare infrastructure monitoring (EPSM74)
 
 ---
 
@@ -53,6 +53,6 @@ Administrateur système passionné par l'infrastructure IT, la conteneurisation 
 
 <div align="center">
 
-### 💡 *"L'automatisation est la clé de l'efficacité"*
+### 💡 *"Automation is the key to efficiency"*
 
 </div>
