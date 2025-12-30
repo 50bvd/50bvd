@@ -27,7 +27,7 @@ jobs:
           base: header, activity, community, repositories, metadata
           repositories_forks: no
           repositories_affiliations: owner
-          repositories_skipped: |
+          repositories_skipped: 50bvd/clipboardfilter
           
           # Configuration d'affichage
           config_timezone: Europe/Paris
@@ -38,7 +38,7 @@ jobs:
           
           # Plugins activés
           
-          # 🈷️ Langages utilisés (analyse des repos)
+          # 🈷️ Langages utilisés (REPOS PUBLICS UNIQUEMENT)
           plugin_languages: yes
           plugin_languages_analysis_timeout: 60
           plugin_languages_categories: markup, programming
@@ -46,7 +46,7 @@ jobs:
           plugin_languages_limit: 12
           plugin_languages_sections: most-used
           plugin_languages_threshold: 0%
-          plugin_languages_indepth: yes
+          plugin_languages_indepth: no
           plugin_languages_details: bytes-size, percentage
           plugin_languages_ignored: html, css, tex
           
@@ -54,43 +54,11 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
           
-          # 💡 Habitudes de code
-          plugin_habits: yes
-          plugin_habits_charts: yes
-          plugin_habits_days: 30
-          plugin_habits_facts: yes
-          plugin_habits_from: 500
-          plugin_habits_trim: yes
-          
-          # 🎫 Gists publics
-          plugin_gists: yes
-          
-          # 📰 Activité récente
-          plugin_activity: yes
-          plugin_activity_days: 30
-          plugin_activity_filter: all
-          plugin_activity_limit: 5
-          plugin_activity_load: 1000
-          plugin_activity_timestamps: yes
-          plugin_activity_visibility: public
-          
           # 👨‍💻 Lignes de code modifiées
           plugin_lines: yes
           plugin_lines_history_limit: 3
           plugin_lines_repositories_limit: 10
           plugin_lines_sections: base, repositories
-          
-          # 🏆 Achievements (badges GitHub)
-          plugin_achievements: yes
-          plugin_achievements_display: compact
-          plugin_achievements_secrets: yes
-          plugin_achievements_threshold: C
-          
-          # 🎩 Contributions notables
-          plugin_notable: yes
-          plugin_notable_from: all
-          plugin_notable_repositories: yes
-          plugin_notable_indepth: yes
           
           # 🌟 Repos récemment starrés
           plugin_stars: yes
