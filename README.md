@@ -17,8 +17,6 @@ Passionate system administrator focused on IT infrastructure, containerization, 
 
 - 🔐 **ClipboardFilter** - Secure multi-system clipboard filtering tool
 - 🔑 **KMSAct** - Windows/Office Activator
-- 🎮 Minecraft server administration and gaming infrastructure
-- 📊 Healthcare infrastructure monitoring (EPSM74)
 
 ---
 
