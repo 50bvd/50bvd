@@ -21,9 +21,25 @@ jobs:
           user: 50bvd
           template: classic
           base: header, activity, community, repositories, metadata
+          
+          # FORCER uniquement les repos publics
+          repositories: 100
+          repositories_batch: 100
           repositories_forks: no
           repositories_affiliations: owner
-          repositories_skipped: 50bvd/clipboardfilter
+          
+          # Query personnalisée pour FORCER les repos publics uniquement
+          query: |
+            {
+              user(login: "50bvd") {
+                repositories(first: 100, ownerAffiliations: OWNER, privacy: PUBLIC, isFork: false, orderBy: {field: UPDATED_AT, direction: DESC}) {
+                  nodes {
+                    nameWithOwner
+                    isPrivate
+                  }
+                }
+              }
+            }
           
           # Configuration
           config_timezone: Europe/Paris
@@ -32,8 +48,9 @@ jobs:
           output_action: commit
           committer_message: "chore: update metrics"
           
-          # 🈷️ Languages UNIQUEMENT (sans indepth pour éviter les privés)
+          # 🈷️ Languages - REPOS PUBLICS UNIQUEMENT
           plugin_languages: yes
+          plugin_languages_skipped: 50bvd/clipboardfilter
           plugin_languages_analysis_timeout: 60
           plugin_languages_categories: markup, programming
           plugin_languages_colors: github
@@ -50,6 +67,7 @@ jobs:
           
           # 👨‍💻 Lignes de code
           plugin_lines: yes
+          plugin_lines_skipped: 50bvd/clipboardfilter
           plugin_lines_history_limit: 3
           plugin_lines_repositories_limit: 10
           plugin_lines_sections: base, repositories
