@@ -13,14 +13,6 @@
 
 Passionate system administrator focused on IT infrastructure, containerization, and automation. I work daily with Windows Server, Linux, Docker, and various monitoring systems.
 
-### 💼 Areas of Expertise
-
-- **Infrastructure**: Windows Server, Active Directory, LDAP
-- **Containerization**: Docker, LXC, Proxmox
-- **Monitoring**: WhatsUp Gold, SNMP, WMI
-- **Security**: SNMPv3, Firewall, Access Management
-- **Scripting**: PowerShell, Bash, Python
-
 ### 🎯 Current Projects
 
 - 🔐 **ClipboardFilter** - Secure multi-system clipboard filtering tool
