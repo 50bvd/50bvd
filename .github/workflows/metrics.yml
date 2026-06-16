@@ -11,6 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      packages: read
     steps:
       - name: Generate Metrics
         uses: lowlighter/metrics@latest
@@ -31,7 +32,7 @@ jobs:
           
           # 🈷️ Langages - TOUS les repos publics
           plugin_languages: yes
-          plugin_languages_limit: 12
+          plugin_languages_limit: 15
           plugin_languages_colors: github
           plugin_languages_threshold: 0%
           plugin_languages_details: bytes-size, percentage
@@ -42,10 +43,7 @@ jobs:
           plugin_isocalendar_duration: half-year
           
           # 👨‍💻 Lignes de code
-          plugin_lines: yes
-          plugin_lines_history_limit: 3
-          plugin_lines_repositories_limit: 10
-          plugin_lines_sections: base, repositories
+          plugin_lines: no
           
           # 🌟 Repos starrés
           plugin_stars: yes
