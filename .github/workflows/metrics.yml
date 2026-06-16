@@ -37,6 +37,7 @@ jobs:
           plugin_languages_threshold: 0%
           plugin_languages_details: bytes-size, percentage
           plugin_languages_ignored: tex
+          plugin_languages_analysis_type: community
           
           # 📅 Calendrier isométrique
           plugin_isocalendar: yes
