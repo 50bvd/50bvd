@@ -1,0 +1,36 @@
+name: Languages Chart
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+  push:
+    branches: ["main"]
+    paths:
+      - "scripts/generate-languages-chart.mjs"
+      - ".github/workflows/languages-chart.yml"
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    concurrency:
+      group: metrics-commit
+      cancel-in-progress: false
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate languages chart
+        run: node scripts/generate-languages-chart.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit chart
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add languages-chart.svg
+          git diff --quiet --cached || git commit -m "chore: update languages chart"
+          git pull --rebase --autostash
+          git push
