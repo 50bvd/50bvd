@@ -1,7 +1,20 @@
 #!/usr/bin/env node
-// Generates an SVG chart showing ALL languages used across every public,
-// non-fork repository owned by OWNER (no artificial display limit, unlike
-// lowlighter/metrics' plugin_languages which caps at 8 entries).
+// Generates an SVG chart showing ALL file types used across every public,
+// non-fork repository owned by OWNER.
+//
+// Unlike GitHub's own "Languages" stats (and lowlighter/metrics' plugin),
+// this does NOT rely on the GET /repos/{owner}/{repo}/languages endpoint.
+// That endpoint is powered by GitHub's Linguist tool, which by design only
+// counts files of type "programming" or "markup" — types like "data"
+// (YAML, JSON, TOML...) and "prose" (Markdown) are excluded UNLESS the repo
+// owner opts in per-repo via a `.gitattributes` linguist-detectable rule.
+// See: https://github.com/github-linguist/linguist/blob/main/docs/overrides.md
+//
+// Instead, this script walks each repo's full file tree directly and
+// classifies every file by its extension/filename using its own mapping
+// below, counting bytes from the tree API's blob `size` field. This way
+// every type of file you actually wrote — YAML, XAML (grouped here under
+// its own label, not bucketed into XML), JSON, Markdown, etc. — is counted.
 //
 // Usage: node generate-languages-chart.mjs
 // Requires: Node 18+ (built-in fetch). GITHUB_TOKEN env var is optional but
@@ -21,8 +34,53 @@ const HEADERS = {
   ...(TOKEN ? { Authorization: `Bearer ${TOKEN}` } : {}),
 };
 
-// Official GitHub linguist colors. Extend this map if a new language
-// appears and you want a specific color instead of the gray fallback.
+// Extension -> label. Add new entries here any time a new file type should
+// be tracked; anything not listed is simply skipped (treated as "not code",
+// e.g. images, binaries, lockfiles).
+const EXT_LANG = {
+  ".js": "JavaScript", ".mjs": "JavaScript", ".cjs": "JavaScript", ".jsx": "JavaScript",
+  ".ts": "TypeScript", ".tsx": "TypeScript",
+  ".ps1": "PowerShell", ".psm1": "PowerShell", ".psd1": "PowerShell",
+  ".py": "Python",
+  ".rb": "Ruby",
+  ".html": "HTML", ".htm": "HTML",
+  ".css": "CSS",
+  ".scss": "SCSS", ".sass": "Sass",
+  ".cs": "C#",
+  ".pl": "Perl", ".pm": "Perl",
+  ".sh": "Shell", ".bash": "Shell", ".zsh": "Shell",
+  ".bat": "Batchfile", ".cmd": "Batchfile",
+  ".yml": "YAML", ".yaml": "YAML",
+  ".xaml": "XAML",
+  ".xml": "XML", ".xsd": "XML", ".xsl": "XML", ".xslt": "XML",
+  ".json": "JSON", ".jsonc": "JSON",
+  ".md": "Markdown", ".markdown": "Markdown",
+  ".toml": "TOML",
+  ".ini": "INI", ".cfg": "INI", ".conf": "INI",
+  ".sql": "SQL",
+  ".go": "Go",
+  ".rs": "Rust",
+  ".java": "Java",
+  ".c": "C", ".h": "C",
+  ".cpp": "C++", ".cc": "C++", ".hpp": "C++",
+  ".php": "PHP",
+  ".vue": "Vue",
+  ".lua": "Lua",
+};
+
+// Exact filenames (no extension) mapped to a label.
+const FILENAME_LANG = {
+  Dockerfile: "Dockerfile",
+  dockerfile: "Dockerfile",
+  Makefile: "Makefile",
+  makefile: "Makefile",
+};
+
+// Directories to ignore entirely (dependencies / build artifacts, not your
+// own written code).
+const SKIP_DIR_RE = /(^|\/)(node_modules|vendor|dist|build|bin|obj|packages|\.git)(\/|$)/i;
+
+// Official GitHub linguist colors where available; custom picks otherwise.
 const COLORS = {
   JavaScript: "#f1e05a",
   TypeScript: "#3178c6",
@@ -30,6 +88,7 @@ const COLORS = {
   HTML: "#e34c26",
   CSS: "#663399",
   SCSS: "#c6538c",
+  Sass: "#a53b70",
   Shell: "#89e051",
   Ruby: "#701516",
   Python: "#3572A5",
@@ -37,22 +96,23 @@ const COLORS = {
   Dockerfile: "#384d54",
   Batchfile: "#C1F12E",
   Perl: "#0298c3",
-  C: "#555555",
-  "C++": "#f34b7d",
-  Go: "#00ADD8",
-  Rust: "#dea584",
-  Java: "#b07219",
-  PHP: "#4F5D95",
-  Vue: "#41b883",
-  SQL: "#e38c00",
   Makefile: "#427819",
-  Assembly: "#6E4C13",
   YAML: "#cb171e",
+  XAML: "#ff7f50",
   XML: "#0060ac",
   JSON: "#292929",
   Markdown: "#083fa1",
-  INI: "#d1dbe0",
   TOML: "#9c4221",
+  INI: "#d1dbe0",
+  SQL: "#e38c00",
+  Go: "#00ADD8",
+  Rust: "#dea584",
+  Java: "#b07219",
+  C: "#555555",
+  "C++": "#f34b7d",
+  PHP: "#4F5D95",
+  Vue: "#41b883",
+  Lua: "#000080",
 };
 const FALLBACK_COLOR = "#959da5";
 
@@ -67,7 +127,6 @@ async function fetchJSON(url) {
 async function getRepos() {
   const repos = [];
   let page = 1;
-  // type=owner: only repos owned by the account (excludes orgs/collabs)
   while (true) {
     const batch = await fetchJSON(
       `${API}/users/${OWNER}/repos?per_page=100&page=${page}&type=owner`,
@@ -76,13 +135,27 @@ async function getRepos() {
     if (batch.length < 100) break;
     page++;
   }
-  // Keep archived repos (still real languages used), exclude forks (not
-  // your own code).
+  // Keep archived repos (still real code you wrote), exclude forks.
   return repos.filter((r) => !r.fork);
 }
 
-async function getLanguages(repoName) {
-  return fetchJSON(`${API}/repos/${OWNER}/${repoName}/languages`);
+async function getTree(repo) {
+  const branch = repo.default_branch || "main";
+  const data = await fetchJSON(
+    `${API}/repos/${OWNER}/${repo.name}/git/trees/${branch}?recursive=1`,
+  );
+  if (data.truncated) {
+    console.error(`  ⚠️ ${repo.name}: tree response truncated by GitHub (very large repo) — counts may be incomplete`);
+  }
+  return data.tree || [];
+}
+
+function classify(path) {
+  const base = path.split("/").pop();
+  if (FILENAME_LANG[base]) return FILENAME_LANG[base];
+  const match = base.match(/\.[^.]+$/);
+  if (!match) return null;
+  return EXT_LANG[match[0].toLowerCase()] || null;
 }
 
 function escapeXML(s) {
@@ -110,7 +183,6 @@ function renderSVG(stats, total, repoCount) {
   sorted.forEach(([name, bytes], i) => {
     const pct = bytes / total;
     let w = pct * barInnerWidth;
-    // avoid sub-pixel rounding leaving a gap on the last segment
     if (i === sorted.length - 1) w = padding + barInnerWidth - x;
     const color = COLORS[name] || FALLBACK_COLOR;
     barSegments += `<rect x="${x.toFixed(2)}" y="${barY}" width="${Math.max(w, 0).toFixed(2)}" height="${barHeight}" fill="${color}" />`;
@@ -140,7 +212,7 @@ function renderSVG(stats, total, repoCount) {
   <rect x="${padding}" y="${barY}" width="${barInnerWidth}" height="${barHeight}" rx="4" fill="#21262d" />
   ${barSegments}
   <g>${legend}</g>
-  <text x="${width - padding}" y="${height - 10}" font-size="10" font-style="italic" fill="#666" text-anchor="end">${sorted.length} languages · ${repoCount} repositories · ${(total / 1024).toFixed(1)} kB total · updated ${updated}</text>
+  <text x="${width - padding}" y="${height - 10}" font-size="10" font-style="italic" fill="#666" text-anchor="end">${sorted.length} file types · ${repoCount} repositories · ${(total / 1024).toFixed(1)} kB total · updated ${updated}</text>
 </svg>`;
 }
 
@@ -154,21 +226,27 @@ async function main() {
 
   const totals = {};
   for (const repo of repos) {
-    const langs = await getLanguages(repo.name);
-    for (const [lang, bytes] of Object.entries(langs)) {
-      totals[lang] = (totals[lang] || 0) + bytes;
+    const tree = await getTree(repo);
+    const seen = new Set();
+    for (const entry of tree) {
+      if (entry.type !== "blob") continue;
+      if (SKIP_DIR_RE.test(entry.path)) continue;
+      const lang = classify(entry.path);
+      if (!lang) continue;
+      totals[lang] = (totals[lang] || 0) + (entry.size || 0);
+      seen.add(lang);
     }
-    console.error(`  ${repo.name}: ${Object.keys(langs).join(", ") || "(no code detected)"}`);
+    console.error(`  ${repo.name}: ${[...seen].join(", ") || "(no recognized file types)"}`);
   }
 
   const total = Object.values(totals).reduce((a, b) => a + b, 0);
   if (total === 0) {
-    throw new Error("No language data collected — aborting to avoid committing an empty chart");
+    throw new Error("No file types collected — aborting to avoid committing an empty chart");
   }
 
   const svg = renderSVG(totals, total, repos.length);
   writeFileSync(OUTPUT_FILE, svg);
-  console.error(`Wrote ${OUTPUT_FILE} — ${Object.keys(totals).length} languages, ${total} bytes total`);
+  console.error(`Wrote ${OUTPUT_FILE} — ${Object.keys(totals).length} file types, ${total} bytes total`);
 }
 
 if (process.argv[1] && import.meta.url === `file://${process.argv[1]}`) {
