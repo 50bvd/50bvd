@@ -80,6 +80,22 @@ const FILENAME_LANG = {
 // own written code).
 const SKIP_DIR_RE = /(^|\/)(node_modules|vendor|dist|build|bin|obj|packages|\.git)(\/|$)/i;
 
+// Auto-generated dependency lockfiles. These can be huge (a single
+// package-lock.json easily reaches hundreds of KB) and would otherwise
+// dominate the chart under JSON/YAML without representing code you wrote.
+const SKIP_FILENAMES = new Set([
+  "package-lock.json",
+  "npm-shrinkwrap.json",
+  "yarn.lock",
+  "pnpm-lock.yaml",
+  "composer.lock",
+  "Gemfile.lock",
+  "Pipfile.lock",
+  "poetry.lock",
+  "Cargo.lock",
+  "go.sum",
+]);
+
 // Official GitHub linguist colors where available; custom picks otherwise.
 const COLORS = {
   JavaScript: "#f1e05a",
@@ -231,6 +247,8 @@ async function main() {
     for (const entry of tree) {
       if (entry.type !== "blob") continue;
       if (SKIP_DIR_RE.test(entry.path)) continue;
+      const base = entry.path.split("/").pop();
+      if (SKIP_FILENAMES.has(base)) continue;
       const lang = classify(entry.path);
       if (!lang) continue;
       totals[lang] = (totals[lang] || 0) + (entry.size || 0);
