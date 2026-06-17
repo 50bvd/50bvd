@@ -24,6 +24,7 @@ Passionate system administrator focused on IT infrastructure, containerization, 
 
 ## 📊 GitHub Metrics
 
+![Languages](https://raw.githubusercontent.com/50bvd/50bvd/main/languages-chart.svg)
 ![Metrics](https://raw.githubusercontent.com/50bvd/50bvd/main/github-metrics.svg)
 
 </div>
