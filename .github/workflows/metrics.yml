@@ -9,6 +9,9 @@ on:
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
+    concurrency:
+      group: metrics-commit
+      cancel-in-progress: false
     permissions:
       contents: write
       packages: read
@@ -16,6 +19,8 @@ jobs:
       - name: Generate Metrics
         uses: lowlighter/metrics@latest
         with:
+          retries_output_action: 5
+          retries_delay_output_action: 30
           # ⚠️ FIX PRINCIPAL : un token personnel est obligatoire pour que
           # metrics puisse lister TES dépôts. ${{ github.token }} identifie
           # le bot "github-actions" et non 50bvd, donc l'action retombait
@@ -37,7 +42,7 @@ jobs:
 
           # 🈷️ Langages - Indepth pour tous les repos
           plugin_languages: yes
-          plugin_languages_limit: 15
+          plugin_languages_limit: 8
           plugin_languages_colors: github
           plugin_languages_threshold: 0%
           plugin_languages_details: bytes-size, percentage
