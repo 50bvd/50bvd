@@ -43,6 +43,7 @@ jobs:
           plugin_languages_details: bytes-size, percentage, lines
           plugin_languages_indepth: yes
           plugin_languages_ignored: tex
+          plugin_languages_other: no
 
           # 📦 Repositories - Afficher vos repos avec leurs langages
           plugin_repositories: yes
