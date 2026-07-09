@@ -2,14 +2,14 @@
   <rect width="760" height="346" rx="6" fill="#0d1117" />
   <text x="20" y="28" font-size="16" font-weight="700" fill="#58a6ff">Languages across all repositories</text>
   <rect x="20" y="56" width="720" height="22" rx="4" fill="#21262d" />
-  <rect x="20.00" y="56" width="137.08" height="22" fill="#f1e05a" /><rect x="157.08" y="56" width="128.06" height="22" fill="#012456" /><rect x="285.13" y="56" width="102.85" height="22" fill="#e34c26" /><rect x="387.98" y="56" width="101.74" height="22" fill="#083fa1" /><rect x="489.72" y="56" width="84.41" height="22" fill="#292929" /><rect x="574.13" y="56" width="49.52" height="22" fill="#c6538c" /><rect x="623.64" y="56" width="26.55" height="22" fill="#cb171e" /><rect x="650.19" y="56" width="21.69" height="22" fill="#3178c6" /><rect x="671.88" y="56" width="17.51" height="22" fill="#89e051" /><rect x="689.39" y="56" width="13.86" height="22" fill="#ff7f50" /><rect x="703.25" y="56" width="11.76" height="22" fill="#663399" /><rect x="715.01" y="56" width="8.82" height="22" fill="#701516" /><rect x="723.84" y="56" width="5.92" height="22" fill="#178600" /><rect x="729.76" y="56" width="2.95" height="22" fill="#384d54" /><rect x="732.71" y="56" width="2.83" height="22" fill="#3572A5" /><rect x="735.53" y="56" width="2.12" height="22" fill="#C1F12E" /><rect x="737.65" y="56" width="1.68" height="22" fill="#d1dbe0" /><rect x="739.33" y="56" width="0.67" height="22" fill="#0298c3" />
+  <rect x="20.00" y="56" width="137.07" height="22" fill="#f1e05a" /><rect x="157.07" y="56" width="128.05" height="22" fill="#012456" /><rect x="285.12" y="56" width="102.84" height="22" fill="#e34c26" /><rect x="387.96" y="56" width="101.77" height="22" fill="#083fa1" /><rect x="489.73" y="56" width="84.40" height="22" fill="#292929" /><rect x="574.13" y="56" width="49.52" height="22" fill="#c6538c" /><rect x="623.65" y="56" width="26.55" height="22" fill="#cb171e" /><rect x="650.19" y="56" width="21.69" height="22" fill="#3178c6" /><rect x="671.88" y="56" width="17.51" height="22" fill="#89e051" /><rect x="689.40" y="56" width="13.86" height="22" fill="#ff7f50" /><rect x="703.26" y="56" width="11.76" height="22" fill="#663399" /><rect x="715.01" y="56" width="8.82" height="22" fill="#701516" /><rect x="723.84" y="56" width="5.92" height="22" fill="#178600" /><rect x="729.76" y="56" width="2.95" height="22" fill="#384d54" /><rect x="732.71" y="56" width="2.83" height="22" fill="#3572A5" /><rect x="735.53" y="56" width="2.12" height="22" fill="#C1F12E" /><rect x="737.65" y="56" width="1.68" height="22" fill="#d1dbe0" /><rect x="739.33" y="56" width="0.67" height="22" fill="#0298c3" />
   <g>
       <circle cx="25.0" cy="104.0" r="5" fill="#f1e05a" />
       <text x="36.0" y="108.0" font-size="13" fill="#c9d1d9">JavaScript</text>
       <text x="372.0" y="108.0" font-size="12" fill="#8b949e" text-anchor="end">19.04% · 152.7 kB</text>
       <circle cx="385.0" cy="104.0" r="5" fill="#012456" />
       <text x="396.0" y="108.0" font-size="13" fill="#c9d1d9">PowerShell</text>
-      <text x="732.0" y="108.0" font-size="12" fill="#8b949e" text-anchor="end">17.79% · 142.7 kB</text>
+      <text x="732.0" y="108.0" font-size="12" fill="#8b949e" text-anchor="end">17.78% · 142.7 kB</text>
       <circle cx="25.0" cy="128.0" r="5" fill="#e34c26" />
       <text x="36.0" y="132.0" font-size="13" fill="#c9d1d9">HTML</text>
       <text x="372.0" y="132.0" font-size="12" fill="#8b949e" text-anchor="end">14.28% · 114.6 kB</text>
@@ -58,5 +58,5 @@
       <circle cx="385.0" cy="296.0" r="5" fill="#0298c3" />
       <text x="396.0" y="300.0" font-size="13" fill="#c9d1d9">Perl</text>
       <text x="732.0" y="300.0" font-size="12" fill="#8b949e" text-anchor="end">0.09% · 0.7 kB</text></g>
-  <text x="740" y="336" font-size="10" font-style="italic" fill="#666" text-anchor="end">18 file types · 8 repositories · 802.2 kB total · updated 2026-07-08</text>
+  <text x="740" y="336" font-size="10" font-style="italic" fill="#666" text-anchor="end">18 file types · 8 repositories · 802.3 kB total · updated 2026-07-09</text>
 </svg>
