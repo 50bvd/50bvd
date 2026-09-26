@@ -1,62 +1,65 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="760" height="346" viewBox="0 0 760 346" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">
-  <rect width="760" height="346" rx="6" fill="#0d1117" />
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="370" viewBox="0 0 760 370" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">
+  <rect width="760" height="370" rx="6" fill="#0d1117" />
   <text x="20" y="28" font-size="16" font-weight="700" fill="#58a6ff">Languages across all repositories</text>
   <rect x="20" y="56" width="720" height="22" rx="4" fill="#21262d" />
-  <rect x="20.00" y="56" width="137.07" height="22" fill="#f1e05a" /><rect x="157.07" y="56" width="128.05" height="22" fill="#012456" /><rect x="285.12" y="56" width="102.84" height="22" fill="#e34c26" /><rect x="387.96" y="56" width="101.77" height="22" fill="#083fa1" /><rect x="489.73" y="56" width="84.40" height="22" fill="#292929" /><rect x="574.13" y="56" width="49.52" height="22" fill="#c6538c" /><rect x="623.65" y="56" width="26.55" height="22" fill="#cb171e" /><rect x="650.19" y="56" width="21.69" height="22" fill="#3178c6" /><rect x="671.88" y="56" width="17.51" height="22" fill="#89e051" /><rect x="689.40" y="56" width="13.86" height="22" fill="#ff7f50" /><rect x="703.26" y="56" width="11.76" height="22" fill="#663399" /><rect x="715.01" y="56" width="8.82" height="22" fill="#701516" /><rect x="723.84" y="56" width="5.92" height="22" fill="#178600" /><rect x="729.76" y="56" width="2.95" height="22" fill="#384d54" /><rect x="732.71" y="56" width="2.83" height="22" fill="#3572A5" /><rect x="735.53" y="56" width="2.12" height="22" fill="#C1F12E" /><rect x="737.65" y="56" width="1.68" height="22" fill="#d1dbe0" /><rect x="739.33" y="56" width="0.67" height="22" fill="#0298c3" />
+  <rect x="20.00" y="56" width="193.05" height="22" fill="#f1e05a" /><rect x="213.05" y="56" width="97.69" height="22" fill="#083fa1" /><rect x="310.74" y="56" width="95.74" height="22" fill="#012456" /><rect x="406.48" y="56" width="74.76" height="22" fill="#c6538c" /><rect x="481.24" y="56" width="73.60" height="22" fill="#e34c26" /><rect x="554.84" y="56" width="66.00" height="22" fill="#292929" /><rect x="620.84" y="56" width="23.92" height="22" fill="#cb171e" /><rect x="644.76" y="56" width="19.83" height="22" fill="#89e051" /><rect x="664.59" y="56" width="16.62" height="22" fill="#3178c6" /><rect x="681.21" y="56" width="13.13" height="22" fill="#ff7f50" /><rect x="694.34" y="56" width="12.12" height="22" fill="#701516" /><rect x="706.47" y="56" width="9.01" height="22" fill="#663399" /><rect x="715.47" y="56" width="7.58" height="22" fill="#d1dbe0" /><rect x="723.05" y="56" width="4.59" height="22" fill="#555555" /><rect x="727.64" y="56" width="4.54" height="22" fill="#178600" /><rect x="732.18" y="56" width="3.52" height="22" fill="#384d54" /><rect x="735.70" y="56" width="2.17" height="22" fill="#3572A5" /><rect x="737.86" y="56" width="1.62" height="22" fill="#C1F12E" /><rect x="739.49" y="56" width="0.51" height="22" fill="#0298c3" />
   <g>
       <circle cx="25.0" cy="104.0" r="5" fill="#f1e05a" />
       <text x="36.0" y="108.0" font-size="13" fill="#c9d1d9">JavaScript</text>
-      <text x="372.0" y="108.0" font-size="12" fill="#8b949e" text-anchor="end">19.04% · 152.7 kB</text>
-      <circle cx="385.0" cy="104.0" r="5" fill="#012456" />
-      <text x="396.0" y="108.0" font-size="13" fill="#c9d1d9">PowerShell</text>
-      <text x="732.0" y="108.0" font-size="12" fill="#8b949e" text-anchor="end">17.78% · 142.7 kB</text>
-      <circle cx="25.0" cy="128.0" r="5" fill="#e34c26" />
-      <text x="36.0" y="132.0" font-size="13" fill="#c9d1d9">HTML</text>
-      <text x="372.0" y="132.0" font-size="12" fill="#8b949e" text-anchor="end">14.28% · 114.6 kB</text>
-      <circle cx="385.0" cy="128.0" r="5" fill="#083fa1" />
-      <text x="396.0" y="132.0" font-size="13" fill="#c9d1d9">Markdown</text>
-      <text x="732.0" y="132.0" font-size="12" fill="#8b949e" text-anchor="end">14.13% · 113.4 kB</text>
-      <circle cx="25.0" cy="152.0" r="5" fill="#292929" />
-      <text x="36.0" y="156.0" font-size="13" fill="#c9d1d9">JSON</text>
-      <text x="372.0" y="156.0" font-size="12" fill="#8b949e" text-anchor="end">11.72% · 94.0 kB</text>
-      <circle cx="385.0" cy="152.0" r="5" fill="#c6538c" />
-      <text x="396.0" y="156.0" font-size="13" fill="#c9d1d9">SCSS</text>
-      <text x="732.0" y="156.0" font-size="12" fill="#8b949e" text-anchor="end">6.88% · 55.2 kB</text>
+      <text x="372.0" y="108.0" font-size="12" fill="#8b949e" text-anchor="end">26.81% · 280.7 kB</text>
+      <circle cx="385.0" cy="104.0" r="5" fill="#083fa1" />
+      <text x="396.0" y="108.0" font-size="13" fill="#c9d1d9">Markdown</text>
+      <text x="732.0" y="108.0" font-size="12" fill="#8b949e" text-anchor="end">13.57% · 142.0 kB</text>
+      <circle cx="25.0" cy="128.0" r="5" fill="#012456" />
+      <text x="36.0" y="132.0" font-size="13" fill="#c9d1d9">PowerShell</text>
+      <text x="372.0" y="132.0" font-size="12" fill="#8b949e" text-anchor="end">13.30% · 139.2 kB</text>
+      <circle cx="385.0" cy="128.0" r="5" fill="#c6538c" />
+      <text x="396.0" y="132.0" font-size="13" fill="#c9d1d9">SCSS</text>
+      <text x="732.0" y="132.0" font-size="12" fill="#8b949e" text-anchor="end">10.38% · 108.7 kB</text>
+      <circle cx="25.0" cy="152.0" r="5" fill="#e34c26" />
+      <text x="36.0" y="156.0" font-size="13" fill="#c9d1d9">HTML</text>
+      <text x="372.0" y="156.0" font-size="12" fill="#8b949e" text-anchor="end">10.22% · 107.0 kB</text>
+      <circle cx="385.0" cy="152.0" r="5" fill="#292929" />
+      <text x="396.0" y="156.0" font-size="13" fill="#c9d1d9">JSON</text>
+      <text x="732.0" y="156.0" font-size="12" fill="#8b949e" text-anchor="end">9.17% · 96.0 kB</text>
       <circle cx="25.0" cy="176.0" r="5" fill="#cb171e" />
       <text x="36.0" y="180.0" font-size="13" fill="#c9d1d9">YAML</text>
-      <text x="372.0" y="180.0" font-size="12" fill="#8b949e" text-anchor="end">3.69% · 29.6 kB</text>
-      <circle cx="385.0" cy="176.0" r="5" fill="#3178c6" />
-      <text x="396.0" y="180.0" font-size="13" fill="#c9d1d9">TypeScript</text>
-      <text x="732.0" y="180.0" font-size="12" fill="#8b949e" text-anchor="end">3.01% · 24.2 kB</text>
-      <circle cx="25.0" cy="200.0" r="5" fill="#89e051" />
-      <text x="36.0" y="204.0" font-size="13" fill="#c9d1d9">Shell</text>
-      <text x="372.0" y="204.0" font-size="12" fill="#8b949e" text-anchor="end">2.43% · 19.5 kB</text>
+      <text x="372.0" y="180.0" font-size="12" fill="#8b949e" text-anchor="end">3.32% · 34.8 kB</text>
+      <circle cx="385.0" cy="176.0" r="5" fill="#89e051" />
+      <text x="396.0" y="180.0" font-size="13" fill="#c9d1d9">Shell</text>
+      <text x="732.0" y="180.0" font-size="12" fill="#8b949e" text-anchor="end">2.75% · 28.8 kB</text>
+      <circle cx="25.0" cy="200.0" r="5" fill="#3178c6" />
+      <text x="36.0" y="204.0" font-size="13" fill="#c9d1d9">TypeScript</text>
+      <text x="372.0" y="204.0" font-size="12" fill="#8b949e" text-anchor="end">2.31% · 24.2 kB</text>
       <circle cx="385.0" cy="200.0" r="5" fill="#ff7f50" />
       <text x="396.0" y="204.0" font-size="13" fill="#c9d1d9">XAML</text>
-      <text x="732.0" y="204.0" font-size="12" fill="#8b949e" text-anchor="end">1.93% · 15.4 kB</text>
-      <circle cx="25.0" cy="224.0" r="5" fill="#663399" />
-      <text x="36.0" y="228.0" font-size="13" fill="#c9d1d9">CSS</text>
-      <text x="372.0" y="228.0" font-size="12" fill="#8b949e" text-anchor="end">1.63% · 13.1 kB</text>
-      <circle cx="385.0" cy="224.0" r="5" fill="#701516" />
-      <text x="396.0" y="228.0" font-size="13" fill="#c9d1d9">Ruby</text>
-      <text x="732.0" y="228.0" font-size="12" fill="#8b949e" text-anchor="end">1.23% · 9.8 kB</text>
-      <circle cx="25.0" cy="248.0" r="5" fill="#178600" />
-      <text x="36.0" y="252.0" font-size="13" fill="#c9d1d9">C#</text>
-      <text x="372.0" y="252.0" font-size="12" fill="#8b949e" text-anchor="end">0.82% · 6.6 kB</text>
-      <circle cx="385.0" cy="248.0" r="5" fill="#384d54" />
-      <text x="396.0" y="252.0" font-size="13" fill="#c9d1d9">Dockerfile</text>
-      <text x="732.0" y="252.0" font-size="12" fill="#8b949e" text-anchor="end">0.41% · 3.3 kB</text>
-      <circle cx="25.0" cy="272.0" r="5" fill="#3572A5" />
-      <text x="36.0" y="276.0" font-size="13" fill="#c9d1d9">Python</text>
-      <text x="372.0" y="276.0" font-size="12" fill="#8b949e" text-anchor="end">0.39% · 3.1 kB</text>
-      <circle cx="385.0" cy="272.0" r="5" fill="#C1F12E" />
-      <text x="396.0" y="276.0" font-size="13" fill="#c9d1d9">Batchfile</text>
-      <text x="732.0" y="276.0" font-size="12" fill="#8b949e" text-anchor="end">0.29% · 2.4 kB</text>
-      <circle cx="25.0" cy="296.0" r="5" fill="#d1dbe0" />
-      <text x="36.0" y="300.0" font-size="13" fill="#c9d1d9">INI</text>
-      <text x="372.0" y="300.0" font-size="12" fill="#8b949e" text-anchor="end">0.23% · 1.9 kB</text>
-      <circle cx="385.0" cy="296.0" r="5" fill="#0298c3" />
-      <text x="396.0" y="300.0" font-size="13" fill="#c9d1d9">Perl</text>
-      <text x="732.0" y="300.0" font-size="12" fill="#8b949e" text-anchor="end">0.09% · 0.7 kB</text></g>
-  <text x="740" y="336" font-size="10" font-style="italic" fill="#666" text-anchor="end">18 file types · 8 repositories · 802.3 kB total · updated 2026-09-25</text>
+      <text x="732.0" y="204.0" font-size="12" fill="#8b949e" text-anchor="end">1.82% · 19.1 kB</text>
+      <circle cx="25.0" cy="224.0" r="5" fill="#701516" />
+      <text x="36.0" y="228.0" font-size="13" fill="#c9d1d9">Ruby</text>
+      <text x="372.0" y="228.0" font-size="12" fill="#8b949e" text-anchor="end">1.68% · 17.6 kB</text>
+      <circle cx="385.0" cy="224.0" r="5" fill="#663399" />
+      <text x="396.0" y="228.0" font-size="13" fill="#c9d1d9">CSS</text>
+      <text x="732.0" y="228.0" font-size="12" fill="#8b949e" text-anchor="end">1.25% · 13.1 kB</text>
+      <circle cx="25.0" cy="248.0" r="5" fill="#d1dbe0" />
+      <text x="36.0" y="252.0" font-size="13" fill="#c9d1d9">INI</text>
+      <text x="372.0" y="252.0" font-size="12" fill="#8b949e" text-anchor="end">1.05% · 11.0 kB</text>
+      <circle cx="385.0" cy="248.0" r="5" fill="#555555" />
+      <text x="396.0" y="252.0" font-size="13" fill="#c9d1d9">C</text>
+      <text x="732.0" y="252.0" font-size="12" fill="#8b949e" text-anchor="end">0.64% · 6.7 kB</text>
+      <circle cx="25.0" cy="272.0" r="5" fill="#178600" />
+      <text x="36.0" y="276.0" font-size="13" fill="#c9d1d9">C#</text>
+      <text x="372.0" y="276.0" font-size="12" fill="#8b949e" text-anchor="end">0.63% · 6.6 kB</text>
+      <circle cx="385.0" cy="272.0" r="5" fill="#384d54" />
+      <text x="396.0" y="276.0" font-size="13" fill="#c9d1d9">Dockerfile</text>
+      <text x="732.0" y="276.0" font-size="12" fill="#8b949e" text-anchor="end">0.49% · 5.1 kB</text>
+      <circle cx="25.0" cy="296.0" r="5" fill="#3572A5" />
+      <text x="36.0" y="300.0" font-size="13" fill="#c9d1d9">Python</text>
+      <text x="372.0" y="300.0" font-size="12" fill="#8b949e" text-anchor="end">0.30% · 3.1 kB</text>
+      <circle cx="385.0" cy="296.0" r="5" fill="#C1F12E" />
+      <text x="396.0" y="300.0" font-size="13" fill="#c9d1d9">Batchfile</text>
+      <text x="732.0" y="300.0" font-size="12" fill="#8b949e" text-anchor="end">0.23% · 2.4 kB</text>
+      <circle cx="25.0" cy="320.0" r="5" fill="#0298c3" />
+      <text x="36.0" y="324.0" font-size="13" fill="#c9d1d9">Perl</text>
+      <text x="372.0" y="324.0" font-size="12" fill="#8b949e" text-anchor="end">0.07% · 0.7 kB</text></g>
+  <text x="740" y="360" font-size="10" font-style="italic" fill="#666" text-anchor="end">19 file types · 8 repositories · 1046.9 kB total · updated 2026-09-26</text>
 </svg>
