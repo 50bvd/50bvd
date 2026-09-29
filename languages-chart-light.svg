@@ -2,26 +2,26 @@
   <defs>
     <clipPath id="bar"><rect x="24" y="58" width="432" height="10" rx="5" /></clipPath>
   </defs>
-  <rect x="0.5" y="0.5" width="479" height="203" rx="10" fill="#0d1117" stroke="#30363d" />
-  <text x="24" y="36" font-size="15" font-weight="600" fill="#e6edf3">Most used languages</text>
-  <rect x="24" y="58" width="432" height="10" rx="5" fill="#21262d" />
+  <rect x="0.5" y="0.5" width="479" height="203" rx="10" fill="#ffffff" stroke="#d0d7de" />
+  <text x="24" y="36" font-size="15" font-weight="600" fill="#1f2328">Most used languages</text>
+  <rect x="24" y="58" width="432" height="10" rx="5" fill="#eaeef2" />
   <g clip-path="url(#bar)"><rect x="24.00" y="58" width="196.93" height="10" fill="#f1e05a" /><rect x="222.93" y="58" width="93.89" height="10" fill="#5391fe" /><rect x="318.83" y="58" width="78.34" height="10" fill="#3178c6" /><rect x="399.16" y="58" width="17.23" height="10" fill="#89e051" /><rect x="418.39" y="58" width="11.06" height="10" fill="#701516" /><rect x="431.45" y="58" width="10.93" height="10" fill="#3572A5" /><rect x="444.38" y="58" width="3.12" height="10" fill="#178600" /><rect x="449.50" y="58" width="6.50" height="10" fill="#8b949e" /></g>
   <g>
     <circle cx="29.0" cy="98" r="5" fill="#f1e05a" />
-    <text x="42.0" y="102" font-size="13" fill="#c9d1d9">JavaScript <tspan fill="#8b949e">46.0%</tspan></text>
+    <text x="42.0" y="102" font-size="13" fill="#1f2328">JavaScript <tspan fill="#656d76">46.0%</tspan></text>
     <circle cx="245.0" cy="98" r="5" fill="#5391fe" />
-    <text x="258.0" y="102" font-size="13" fill="#c9d1d9">PowerShell <tspan fill="#8b949e">22.2%</tspan></text>
+    <text x="258.0" y="102" font-size="13" fill="#1f2328">PowerShell <tspan fill="#656d76">22.2%</tspan></text>
     <circle cx="29.0" cy="124" r="5" fill="#3178c6" />
-    <text x="42.0" y="128" font-size="13" fill="#c9d1d9">TypeScript <tspan fill="#8b949e">18.6%</tspan></text>
+    <text x="42.0" y="128" font-size="13" fill="#1f2328">TypeScript <tspan fill="#656d76">18.6%</tspan></text>
     <circle cx="245.0" cy="124" r="5" fill="#89e051" />
-    <text x="258.0" y="128" font-size="13" fill="#c9d1d9">Shell <tspan fill="#8b949e">4.5%</tspan></text>
+    <text x="258.0" y="128" font-size="13" fill="#1f2328">Shell <tspan fill="#656d76">4.5%</tspan></text>
     <circle cx="29.0" cy="150" r="5" fill="#701516" />
-    <text x="42.0" y="154" font-size="13" fill="#c9d1d9">Ruby <tspan fill="#8b949e">3.0%</tspan></text>
+    <text x="42.0" y="154" font-size="13" fill="#1f2328">Ruby <tspan fill="#656d76">3.0%</tspan></text>
     <circle cx="245.0" cy="150" r="5" fill="#3572A5" />
-    <text x="258.0" y="154" font-size="13" fill="#c9d1d9">Python <tspan fill="#8b949e">3.0%</tspan></text>
+    <text x="258.0" y="154" font-size="13" fill="#1f2328">Python <tspan fill="#656d76">3.0%</tspan></text>
     <circle cx="29.0" cy="176" r="5" fill="#178600" />
-    <text x="42.0" y="180" font-size="13" fill="#c9d1d9">C# <tspan fill="#8b949e">1.2%</tspan></text>
+    <text x="42.0" y="180" font-size="13" fill="#1f2328">C# <tspan fill="#656d76">1.2%</tspan></text>
     <circle cx="245.0" cy="176" r="5" fill="#8b949e" />
-    <text x="258.0" y="180" font-size="13" fill="#c9d1d9">Other <tspan fill="#8b949e">1.5%</tspan></text>
+    <text x="258.0" y="180" font-size="13" fill="#1f2328">Other <tspan fill="#656d76">1.5%</tspan></text>
   </g>
 </svg>
