@@ -12,9 +12,25 @@ I keep infrastructure running and try to make it run itself — containerized se
 
 ### Toolbox
 
-<a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=linux,windows,docker,powershell,bash,py,js,ts,githubactions&theme=dark&perline=9" alt="Linux, Windows, Docker, PowerShell, Bash, Python, JavaScript, TypeScript, GitHub Actions" />
-</a>
+<p>
+  <sub><b>Systems &amp; infrastructure</b></sub><br />
+  <img src="https://skillicons.dev/icons?i=linux,windows,docker,nginx,sqlite&theme=dark" alt="Systems &amp; infrastructure" />
+</p>
+
+<p>
+  <sub><b>Scripting &amp; languages</b></sub><br />
+  <img src="https://skillicons.dev/icons?i=bash,powershell,py,js,ts,cs,ruby,perl&theme=dark" alt="Scripting &amp; languages" />
+</p>
+
+<p>
+  <sub><b>Apps &amp; web</b></sub><br />
+  <img src="https://skillicons.dev/icons?i=nodejs,electron,dotnet,html,css,sass&theme=dark" alt="Apps &amp; web" />
+</p>
+
+<p>
+  <sub><b>Tooling &amp; CI</b></sub><br />
+  <img src="https://skillicons.dev/icons?i=git,github,githubactions&theme=dark" alt="Tooling &amp; CI" />
+</p>
 
 <br />
 <br />
