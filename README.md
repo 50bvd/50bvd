@@ -24,11 +24,21 @@ I keep infrastructure running and try to make it run itself — containerized se
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h4>🔐 ClipboardFilter</h4>
+      <h4>🟢 <a href="https://github.com/50bvd/mmi3g-green-menu-activator">MMI 3G Green Menu</a></h4>
+      <sub>Enables the hidden Green Engineering Menu on Audi MMI 3G units from an SD card, with verified backups and a one-file rollback.</sub>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🖥️ <a href="https://github.com/50bvd/jekyll-infops-theme">jekyll-infops-theme</a></h4>
+      <sub>Jekyll theme for DevOps &amp; SysOps blogs: CRT-style terminal, dark/light mode, search and Docker-ready setup.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🔐 <a href="https://github.com/50bvd/clipboardfilter">ClipboardFilter</a></h4>
       <sub>Secure clipboard filtering tool working across multiple systems.</sub>
     </td>
     <td width="50%" valign="top">
-      <h4>🔑 KMSAct</h4>
+      <h4>🔑 <a href="https://github.com/50bvd/kmsact">KMSAct</a></h4>
       <sub>Windows / Office activation tool.</sub>
     </td>
   </tr>
