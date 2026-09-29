@@ -31,10 +31,12 @@ const ROWS = {
   languages: [
     { name: "Bash", devicon: "bash/bash-plain", fill: "#ffffff" },
     { name: "PowerShell", devicon: "powershell/powershell-original" },
-    { name: "Python", devicon: "python/python-original" },
     { name: "JavaScript", devicon: "javascript/javascript-original" },
     { name: "TypeScript", devicon: "typescript/typescript-original" },
     { name: "C", devicon: "c/c-original" },
+    { name: "C#", devicon: "csharp/csharp-original" },
+    { name: "Ruby", devicon: "ruby/ruby-original" },
+    { name: "Perl", devicon: "perl/perl-original" },
     { name: "Assembly", text: "ASM", color: "#6e9eff" },
   ],
   tooling: [
