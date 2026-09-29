@@ -14,22 +14,17 @@ I keep infrastructure running and try to make it run itself — containerized se
 
 <p>
   <sub><b>Systems &amp; infrastructure</b></sub><br />
-  <img src="https://skillicons.dev/icons?i=linux,windows,docker,nginx,sqlite&theme=dark" alt="Systems &amp; infrastructure" />
+  <img src="toolbox-systems.svg" alt="Linux, Windows, VMware, Docker, Oracle" />
 </p>
 
 <p>
-  <sub><b>Scripting &amp; languages</b></sub><br />
-  <img src="https://skillicons.dev/icons?i=bash,powershell,py,js,ts,cs,ruby,perl&theme=dark" alt="Scripting &amp; languages" />
-</p>
-
-<p>
-  <sub><b>Apps &amp; web</b></sub><br />
-  <img src="https://skillicons.dev/icons?i=nodejs,electron,dotnet,html,css,sass&theme=dark" alt="Apps &amp; web" />
+  <sub><b>Languages</b></sub><br />
+  <img src="toolbox-languages.svg" alt="Bash, PowerShell, Python, JavaScript, TypeScript, C, Assembly" />
 </p>
 
 <p>
   <sub><b>Tooling &amp; CI</b></sub><br />
-  <img src="https://skillicons.dev/icons?i=git,github,githubactions&theme=dark" alt="Tooling &amp; CI" />
+  <img src="toolbox-tooling.svg" alt="Git, GitHub, GitHub Actions" />
 </p>
 
 <br />
