@@ -19,7 +19,7 @@ I keep infrastructure running and try to make it run itself — containerized se
 
 <p>
   <sub><b>Languages</b></sub><br />
-  <img src="toolbox-languages.svg" alt="Bash, PowerShell, Python, JavaScript, TypeScript, C, Assembly" />
+  <img src="toolbox-languages.svg" alt="Bash, PowerShell, JavaScript, TypeScript, C, C#, Ruby, Perl, Assembly" />
 </p>
 
 <p>
