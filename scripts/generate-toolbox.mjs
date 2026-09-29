@@ -36,7 +36,7 @@ const ROWS = {
     { name: "C", devicon: "c/c-original" },
     { name: "C#", devicon: "csharp/csharp-original" },
     { name: "Ruby", devicon: "ruby/ruby-original" },
-    { name: "Perl", devicon: "perl/perl-original" },
+    { name: "Perl", simple: "siPerl", fill: "#39a0d6" },
     { name: "Assembly", text: "ASM", color: "#6e9eff" },
   ],
   tooling: [
