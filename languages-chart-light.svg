@@ -5,23 +5,23 @@
   <rect x="0.5" y="0.5" width="479" height="203" rx="10" fill="#ffffff" stroke="#d0d7de" />
   <text x="24" y="36" font-size="15" font-weight="600" fill="#1f2328">Most used languages</text>
   <rect x="24" y="58" width="432" height="10" rx="5" fill="#eaeef2" />
-  <g clip-path="url(#bar)"><rect x="24.00" y="58" width="192.50" height="10" fill="#f1e05a" /><rect x="218.50" y="58" width="92.01" height="10" fill="#4fc3f7" /><rect x="312.51" y="58" width="76.75" height="10" fill="#3178c6" /><rect x="391.25" y="58" width="25.86" height="10" fill="#89e051" /><rect x="419.11" y="58" width="10.80" height="10" fill="#f85149" /><rect x="431.91" y="58" width="10.70" height="10" fill="#a371f7" /><rect x="444.61" y="58" width="3.01" height="10" fill="#178600" /><rect x="449.62" y="58" width="6.38" height="10" fill="#8b949e" /></g>
+  <g clip-path="url(#bar)"><rect x="24.00" y="58" width="191.89" height="10" fill="#f1e05a" /><rect x="217.89" y="58" width="88.08" height="10" fill="#4fc3f7" /><rect x="307.97" y="58" width="81.60" height="10" fill="#3178c6" /><rect x="391.57" y="58" width="27.08" height="10" fill="#89e051" /><rect x="420.65" y="58" width="10.27" height="10" fill="#f85149" /><rect x="432.92" y="58" width="10.17" height="10" fill="#a371f7" /><rect x="445.08" y="58" width="2.80" height="10" fill="#178600" /><rect x="449.88" y="58" width="6.12" height="10" fill="#8b949e" /></g>
   <g>
     <circle cx="29.0" cy="98" r="5" fill="#f1e05a" />
-    <text x="42.0" y="102" font-size="13" fill="#1f2328">JavaScript <tspan fill="#656d76">45.0%</tspan></text>
+    <text x="42.0" y="102" font-size="13" fill="#1f2328">JavaScript <tspan fill="#656d76">44.9%</tspan></text>
     <circle cx="245.0" cy="98" r="5" fill="#4fc3f7" />
-    <text x="258.0" y="102" font-size="13" fill="#1f2328">PowerShell <tspan fill="#656d76">21.8%</tspan></text>
+    <text x="258.0" y="102" font-size="13" fill="#1f2328">PowerShell <tspan fill="#656d76">20.9%</tspan></text>
     <circle cx="29.0" cy="124" r="5" fill="#3178c6" />
-    <text x="42.0" y="128" font-size="13" fill="#1f2328">TypeScript <tspan fill="#656d76">18.2%</tspan></text>
+    <text x="42.0" y="128" font-size="13" fill="#1f2328">TypeScript <tspan fill="#656d76">19.4%</tspan></text>
     <circle cx="245.0" cy="124" r="5" fill="#89e051" />
-    <text x="258.0" y="128" font-size="13" fill="#1f2328">Shell <tspan fill="#656d76">6.4%</tspan></text>
+    <text x="258.0" y="128" font-size="13" fill="#1f2328">Shell <tspan fill="#656d76">6.7%</tspan></text>
     <circle cx="29.0" cy="150" r="5" fill="#f85149" />
-    <text x="42.0" y="154" font-size="13" fill="#1f2328">Ruby <tspan fill="#656d76">3.0%</tspan></text>
+    <text x="42.0" y="154" font-size="13" fill="#1f2328">Ruby <tspan fill="#656d76">2.8%</tspan></text>
     <circle cx="245.0" cy="150" r="5" fill="#a371f7" />
-    <text x="258.0" y="154" font-size="13" fill="#1f2328">Python <tspan fill="#656d76">2.9%</tspan></text>
+    <text x="258.0" y="154" font-size="13" fill="#1f2328">Python <tspan fill="#656d76">2.8%</tspan></text>
     <circle cx="29.0" cy="176" r="5" fill="#178600" />
-    <text x="42.0" y="180" font-size="13" fill="#1f2328">C# <tspan fill="#656d76">1.2%</tspan></text>
+    <text x="42.0" y="180" font-size="13" fill="#1f2328">C# <tspan fill="#656d76">1.1%</tspan></text>
     <circle cx="245.0" cy="176" r="5" fill="#8b949e" />
-    <text x="258.0" y="180" font-size="13" fill="#1f2328">Other <tspan fill="#656d76">1.5%</tspan></text>
+    <text x="258.0" y="180" font-size="13" fill="#1f2328">Other <tspan fill="#656d76">1.4%</tspan></text>
   </g>
 </svg>
