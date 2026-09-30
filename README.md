@@ -62,7 +62,7 @@ I keep infrastructure running and try to make it run itself — containerized se
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/50bvd/50bvd/main/languages-chart.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/50bvd/50bvd/main/languages-chart-light.svg" />
-  <img src="https://raw.githubusercontent.com/50bvd/50bvd/main/languages-chart.svg" alt="Most used languages" />
+  <img src="https://raw.githubusercontent.com/50bvd/50bvd/main/languages-chart.svg" alt="Most used languages" width="100%" />
 </picture>
 
 <details>

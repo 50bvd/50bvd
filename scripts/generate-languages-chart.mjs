@@ -151,11 +151,11 @@ function renderSVG(stats, total, theme = "dark") {
   const langs = topLanguages(stats);
   const colorOf = (name) => (name === "Other" ? OTHER_COLOR : COLORS[name] || FALLBACK_COLOR);
 
-  const width = 480;
+  const width = 840;
   const padding = 24;
   const barY = 58;
   const barHeight = 10;
-  const colCount = 2;
+  const colCount = 4;
   const rowHeight = 26;
   const legendY = barY + barHeight + 30;
   const rows = Math.ceil(langs.length / colCount);
